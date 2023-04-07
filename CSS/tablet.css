@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     .filtres{
         width: 97%;
         align-items: flex-start;
@@ -45,8 +45,8 @@
         width: 90%;
     }
 
-    .activites div a img{
-        height: 211px;
+    .activites img{
+        height: 250px;
     }
 
     .list:nth-last-of-type(1){
