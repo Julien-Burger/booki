@@ -164,6 +164,10 @@
         width: 100%;
     }
 
+    .activites article:nth-of-type(4) img{
+        object-position: center top;
+    }
+
     footer{
         width: 110%;
         margin: auto;
