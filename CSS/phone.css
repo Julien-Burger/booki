@@ -57,6 +57,10 @@
         padding-top: 40px;
     }
 
+    .searchBar input{
+        width: 60%;
+    }
+
     .searchBar button span{
         display: none;
     }

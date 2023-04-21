@@ -1,4 +1,3 @@
-/*GENERAL SETTINGS*/
 *{
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -24,7 +23,6 @@ body{
     margin: auto;
 }
 
-/*HEADER*/
 header{
     width: 97%;
     height: 50px;
@@ -35,7 +33,6 @@ header{
     align-items: flex-end;
 }
 
-/*Logo "Booki" properties*/
 .logo{
     width: 100px;
 }
@@ -51,7 +48,6 @@ nav a{
     margin-right: 67px;
 }
 
-/*Cancel the margin right of the "Activités" element*/
 nav a:nth-last-of-type(1){
     margin-right: 0px;
 }
@@ -80,8 +76,6 @@ nav li:hover > a{
     color: #0065FC;
 }
 
-/*BODY*/
-/*bodyTop = from "Trouvez votre..." to "Plus de 500..."*/
 .bodyTop{
     width: 97%;
     margin: auto;
@@ -102,8 +96,7 @@ nav li:hover > a{
     font-size: 16px;
 }
 
-/*div = container of .searchBar, .filtres, .bottom*/
-.bodyTop > div{
+.bodyTop > section{
     margin: 20px 0px 0px 0px;
 }
 
@@ -137,7 +130,7 @@ nav li:hover > a{
 }
 
 .searchBar input:focus{
-    outline: none; /*Removes the outline around the text field when selected*/
+    outline: none;
 }
 
 .searchBar button{
@@ -191,7 +184,6 @@ nav li:hover > a{
     font-size: 18px;
 }
 
-/*div = filter choice*/
 .filtres .filtresGroupe div{ 
     padding: 16px 20px;
     display: flex;
@@ -205,7 +197,6 @@ nav li:hover > a{
     transition: all 0.2s;
 }
 
-/*Icon settings of a filter choice*/
 .filtres div i{
     align-self: center;
     color: #0065FC;
@@ -244,9 +235,7 @@ nav li:hover > a{
     font-weight: 400;
     font-size: 16px;
 }
-/*end bodyTop*/
 
-/*bodyMiddle = "Hébergements" & "Les plus populaires"*/
 .bodyMiddle{
     width: 97%;
     margin: auto;
@@ -268,7 +257,6 @@ nav li:hover > a{
     border-radius: 20px;
 }
 
-/*Results container*/
 .hebergements > div{
     display: flex;
     flex-direction: row;
@@ -280,19 +268,16 @@ nav li:hover > a{
     margin-left: 30px;
 }
 
-/*Afficher Plus*/
 .hebergements span{
     padding: 10px 0px 30px 0px;
     font-size: 18px;
     font-weight: 700;
 }
 
-/*Hébergements à XX*/
 .hebergements h2{
     padding: 42px 0px 30px 0px;
 }
 
-/*Result card settings*/
 .logement{
     margin-bottom: 15px;
     width: 30%;
@@ -347,7 +332,6 @@ nav li:hover > a{
 .stars i:nth-last-of-type(1){
     color: #F2F2F2;
 }
-/*end Result card settings*/
 
 .populaires{
     margin-top: 39px;
@@ -425,7 +409,6 @@ nav li:hover > a{
     padding-top: 16px;
 }
 
-/*bodyBottom = "Activités à XX"*/
 .bodyBottom{
     width: 97%;
     margin: auto;
@@ -445,7 +428,6 @@ nav li:hover > a{
     gap: 25px;
 }
 
-/*div = activity choice*/
 .activites article{
     width: 25%;
 }
@@ -480,9 +462,8 @@ nav li:hover > a{
     font-weight: 700;
 }
 
-/*FOOTER*/
 footer{
-    width: 97%;
+    width: 100%;
     margin: auto;
     margin-top: 50px;
     padding-top: 60px;
@@ -496,7 +477,6 @@ footer{
     padding-left: 50px;
 }
 
-/*Assistance list*/
 .list:nth-last-of-type(1){
     padding-right: 250px;
 }
@@ -511,7 +491,6 @@ footer{
     font-size: 16px;
 }
 
-/*First list element*/
 .list ul li:nth-last-of-type(3){
     padding-top: 20px;
 }
